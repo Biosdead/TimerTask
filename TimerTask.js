@@ -32,7 +32,7 @@
       clearInterval(timer); // para o setInterval assim parando o contador
       timer = null;
     }else {
-      timer = setInterval(function() {if(segundos>59){segundos=0;minutos++;}else{segundos++;}if (minutos > 59) {minutos=0;horas++;} update(segundos,minutos,horas,id)}, 1000); // chama o setInterval e atualiza o timer
+      timer = setInterval(function() {if(segundos==59){segundos=0;minutos++;}else{segundos++;}if ((minutos == 59)&&(segundos==59)) {minutos=0;horas++;} update(segundos,minutos,horas,id)}, 1000); // chama o setInterval e atualiza o timer
       var tempPlayId = "Play"+id;
       document.getElementById(tempPlayId).innerHTML = "Stop";
 
