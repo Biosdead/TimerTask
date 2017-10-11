@@ -173,6 +173,7 @@ function idiom(){
     language[7] = "Restaurar";
     language[8] = "Atual";
     language[9] = "Você realmente deseja Apagar os Temporizadores?";
+    language[10] = "Criador : Lennon S Furtado";
   }else {
     language[0] = "Write the name of the timer";
     language[1] = "Clear Memory";
@@ -184,11 +185,13 @@ function idiom(){
     language[7] = "Restore";
     language[8] = "Current";
     language[9] = "Do you really want to erase all the timertasks?";
+    language[10] = "Creator : Lennon S Furtado";
   }
 
   document.getElementById('TimerName').value = language[0];
   document.getElementById('Clear').innerHTML = language[1];
   document.getElementById('history').innerHTML = language[2];
+  document.getElementById('creator').innerHTML = language[10];
 }
 
 function ShowAddDiv(){

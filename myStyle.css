@@ -79,7 +79,8 @@ input {
 	display: inline-block;
 	color: #f4f2ca;
 	text-align: center;
-	background-color: orange;
+	/*background-color: orange;*/
+  background-color: red;
 	padding: .9em 1.8em;
 	border: none;
 	cursor: pointer;
@@ -92,8 +93,9 @@ input {
 	transition: all .1s linear;
 }
 input:hover {
-	background-color: #d0432a;
-}
+	/*background-color: #d0432a;*/
+  background-color: blue;
+  }
 
 /* after button is clicked */
 input.active {
@@ -102,9 +104,4 @@ input.active {
 	color: #efaa9d;
 	text-align: left;
 	cursor: inherit;
-}
-
-.disabledbutton {
-    pointer-events: none;
-    opacity: 0.4;
 }
