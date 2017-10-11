@@ -103,3 +103,8 @@ input.active {
 	text-align: left;
 	cursor: inherit;
 }
+
+.disabledbutton {
+    pointer-events: none;
+    opacity: 0.4;
+}
