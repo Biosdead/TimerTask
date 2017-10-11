@@ -1,7 +1,8 @@
 body {
   text-align: center;
   background: #f06;
-  background: linear-gradient(45deg, #f06, yellow);
+  /*background: linear-gradient(45deg, #f06, yellow);*/
+  background: linear-gradient(90deg, red, blue);
   min-height: 100%;
   font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   padding: 100px;
