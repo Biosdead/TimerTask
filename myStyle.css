@@ -9,7 +9,8 @@ body {
   font-size: 13px;
 }
 
-div {
+
+.stopwatch {
   background: #fff;
   margin: 0 auto;
   width: 400px;
@@ -26,16 +27,35 @@ div {
   box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
 }
 
-div.box {
+.stopwatch.box {
     width: 50px;
     height: 30px;
     position:relative;
 }
-div.box p{
+.stopwatch.box p{
   top: -20px;
   margin:0;
   padding:0;
   position:relative;
+}
+
+#Gantt{
+width: auto;
+height: auto;
+text-align: center;
+
+}
+
+#Container{
+  /*display: none;*/
+}
+
+object{
+  margin: 0 auto;
+  width:100%;
+  height:100%;
+  text-align: center;
+  padding:0;
 }
 
 button {
