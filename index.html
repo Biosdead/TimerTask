@@ -2,7 +2,9 @@
 <head>
   <meta charset="UTF-8">
   <script language="javascript" type="text/javascript" src="TimerTask.js"></script>
+  <script language="javascript" type="text/javascript" src="Dialog.js"></script>
   <link rel="stylesheet" type="text/css" href="myStyle.css">
+  <link rel="stylesheet" type="text/css" href="Dialog.css">
 </head>
 <h1>TimerTask</h1>
 <body id="body" onload="LoadTimers();">
@@ -12,6 +14,14 @@
 <footer>
 <button id="Clear" type="button" name="ClearMemory" onclick="ClearMemory();"> Clear Memory </button>
 <button id="history" type="button" name="History" onclick="ShowHistory();">History</button>
+<div id="dialogoverlay"></div>
+<div id="dialogbox">
+  <div id="Container">
+    <div id="dialogboxhead"></div>
+    <div id="dialogboxbody"></div>
+    <div id="dialogboxfoot"></div>
+  </div>
+</div>
 <h3 id="creator">Creator : Sapiens Faber Ludens</h3>
 </footer>
 </html>
